@@ -32,6 +32,22 @@ body {
     background-color: variaveis.$corDeFundo;
 }
 
+*::-webkit-scrollbar {
+    width: 6px;
+    height: 6px;
+    color: #eee;
+}
+
+*::-webkit-scrollbar-track {
+    background: #eee;
+    border-radius: 6px;
+}
+
+*::-webkit-scrollbar {
+    background-color: gray;
+    border-radius: 18px;
+}
+
 @mixin text($fontSize: 16px) {
     font-size: $fontSize;
     line-height: $fontSize + 10px;
